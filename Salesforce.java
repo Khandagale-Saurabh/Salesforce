@@ -12,3 +12,10 @@ Task:
 Email Alert:
 Field Update:
 Outbound Message:
+
+
+=================================
+  Trigger:
+Trigger AccoTrig on Account(Before Insert, Afert delete)
+{
+}
