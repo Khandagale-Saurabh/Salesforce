@@ -1,3 +1,6 @@
+Imp
+https://techilaservices.com/blog/what-are-salesforce-objects/
+
 Object Manager
 1]field : we create filed
 2]compact layout: mobile,tab ki liye kse dekhana hai
