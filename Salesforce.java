@@ -54,5 +54,7 @@ Trigger AccoTrig on Account(Before Insert, Afert delete)
        14] before: before store in database
             after: after storing in databse
             
-       
+       15]Force vs salesforces:
+            force: it give demo envornemt
+            salesforces give : developmet enviormnet
    
