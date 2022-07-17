@@ -57,4 +57,7 @@ Trigger AccoTrig on Account(Before Insert, Afert delete)
        15]Force vs salesforces:
             force: it give demo envornemt
             salesforces give : developmet enviormnet
+16] dynamic dashboard ? can we schedule
+No
+=> https://chargent.force.com/kb/s/article/Salesforce-Dashboards-Static-vs-Dynamic-Dashboard
    
