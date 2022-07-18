@@ -29,7 +29,19 @@ Trigger AccoTrig on Account(Before Insert, Afert delete)
   we can use data loader to store it in local machine and import in from local machine
   
   2] role : when you have to hide [recod level security ] eg: boss[All record]->emp-> sub-emp[onlu his recored]
- Profile: objec, filed ,admin perission login hrs
+ Profile: objec, filed ,admin perission login hrs  [user will have only 1 profile]
+ Permision : user can have many permission
+ 
+ profile: for standard profile we cannot change everything [tab visisblit and application setting can be changerd] so because of this we create custome profile
+ profile:
+1]Tab visiblity
+2]Admin permission [public document,Email Templates]
+3] General user Permission [Manage email, manage lead, send mail, Report manege]
+4]  @] Standard object permission[Account,opp,lead.....]=>read,create,edit,delete,viewAll,modifyAll
+    @] Custom Object[]=>>read,create,edit,delete,viewAll,modifyAll
+    {In real time you sholud not give delete permission always}
+5] Session Setting : paswarod time , login hrs
+    
  
  3] view state error: some time data will cached and when chache size >180 it will give eroor
  4] ajex tag: action poller & action staus, action regin
