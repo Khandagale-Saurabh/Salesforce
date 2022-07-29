@@ -41,8 +41,10 @@ Trigger AccoTrig on Account(Before Insert, Afert delete)
     @] Custom Object[]=>>read,create,edit,delete,viewAll,modifyAll
     {In real time you sholud not give delete permission always}
 5] Session Setting : paswarod time , login hrs
-    
- 
+
+ Q]User1 & user2 same profile with modify acess and owd is private for object wiill the manipute each other data.   
+ Profile will override owd setting so user 1 & user 2can edit each other data.
+   
  3] view state error: some time data will cached and when chache size >180 it will give eroor
  4] ajex tag: action poller & action staus, action regin
  5] how to write trigger best practice [crete  different class for logic and call it inside trigger]
@@ -55,6 +57,9 @@ Trigger AccoTrig on Account(Before Insert, Afert delete)
       9] wrapper class in salesfors [our own object like Intger]
       10]odi: contact & leave object
       & whatid: other than conatct & leave
+      
+      
+      
       
       
       11] mix dml exception : setup & non-setup object mai recored insert krte 
