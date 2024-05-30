@@ -77,4 +77,6 @@ Trigger AccoTrig on Account(Before Insert, Afert delete)
 16] dynamic dashboard ? can we schedule
 No
 => https://chargent.force.com/kb/s/article/Salesforce-Dashboards-Static-vs-Dynamic-Dashboard
+
+  17] if tryingyou have make filed, as read only but still it iseditable table then, there might be any after trigger involve to populste that value.
    
